@@ -1,3 +1,5 @@
+(function() {
+
 // DOM VARIABLES
 let fahrenheitInput = document.querySelector('#farenheit');
 let celciusInput = document.querySelector('#celcius');
@@ -23,3 +25,11 @@ function updateTemperature() {
 inputs.forEach(input => {
   input.addEventListener('change', updateTemperature, false);
 });
+
+
+
+
+
+
+
+} ());
